@@ -1,0 +1,74 @@
+#stWrapper
+{
+	width: 700px;
+	margin: 50px auto;
+	background-color: white;
+	padding: 20px;
+}
+#stWrapper *
+{
+	font-size: 12px;
+	font-face: arial;
+}
+#stWrapper h2
+{
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+}
+#stWrapper .stMessageHeader,
+#stWrapper .stGroupHeader
+{
+	padding: 20px 0 10px 0;
+}
+#stWrapper #stMessage
+{
+	width: 600px;
+	height: 40px;
+	padding: 10px;
+}
+#stWrapper ul#stGroupList
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#stWrapper ul#stGroupList li
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 400px;
+	display: inline-block;
+}
+#stWrapper ul#stGroupList li label
+{
+	
+}
+#stWrapper ul#stGroupList li label input[type=checkbox]
+{
+	margin: 0 20px 0 0;
+}
+#stWrapper .stSendButtonRow
+{
+margin: 20px 0 0 0;
+}
+#stWrapper .stSendButtonRow a
+{
+	border: 1px solid #48e;
+	padding: 4px;
+	font-size: 12px;
+	height: 20px;
+	display: inline-block;
+	width: 100px;
+	background-color: #48e;
+	color: #eee;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	height: 24px;
+	vertical-align: middle;
+	line-height: 24px;
+	margin: 0 10px 0 0;
+}
+
