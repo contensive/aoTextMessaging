@@ -1,14 +1,26 @@
  <div id="stWrapper">
  <h2>Send Text Message</h2>
+<div id="stMessageSent">Message Sent to User 1 - Hi {name}, did you get this?</div>
+<div class="stFromAddressHeader">Email From-Address</div>
+<div class="stInputRow">
+	<input type="text" name="fromAddress" id="stFromAddress"></textarea>
+</div>
 <div class="stMessageHeader">Message</div>
-<textarea name="message" id="stMessage"></textarea>
+<div class="stInputRow">
+	<textarea name="message" id="stMessage"></textarea>
+</div>
 <div class="stGroupHeader">Select one or more groups.</div>
-<ul id="stGroupList">
-	<li>
-		 <label>
-			<input type="checkbox" id="group0">Group0 Caption
-		</label>
-	</li>
-</ul>
-<div class="stSendButtonRow"><a href="#" id="stSendButton">Send</a></div>
+<div class="stInputRow">
+	<ul id="stGroupList">
+		<li>
+			 <label>
+				<input type="checkbox" id="group0">Group0 Caption
+			</label>
+		</li>
+	</ul>
+</div>	
+<div class="stSendButtonRow">
+	<button type="submit"id="stSendButton">Send</button>
+	<button type="submit"id="stCancelButton">Cancel</button>
+</div>
 </div>
